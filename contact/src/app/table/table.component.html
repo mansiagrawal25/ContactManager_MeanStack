@@ -1,0 +1,13 @@
+<div>
+  <br>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th></th>
+    </tr>
+    <tr *ngFor = 'let contact of contactlist'>
+      <td>{{contact.firstname}} {{contact.lastname}}</td>
+      <td> <button>VIEW</button></td>
+    </tr>
+    </table>
+</div>

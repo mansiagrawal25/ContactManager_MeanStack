@@ -1,0 +1,15 @@
+
+<div style="text-align:center">
+  <!-- Tittle -->
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  
+</div>
+<h2><button class= 'add' type="add"  (click)= 'makevisible()' value="add"> ADD </button> </h2>
+
+<app-showcomponent></app-showcomponent>
+
+<app-form *ngIf='visible'></app-form>
+<app-table></app-table>
+<router-outlet></router-outlet>
